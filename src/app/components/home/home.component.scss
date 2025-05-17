@@ -1,0 +1,89 @@
+.h3c {
+    font-size: 30px;
+    color: white;
+}
+
+.pc {
+    font-size: 23px;
+    color: white;
+}
+
+.oporaTitle {
+    width: 300px; /* Фиксированная ширина */
+    white-space: nowrap; /* Запрещает перенос текста на новую строку */
+    overflow: hidden; /* Скрывает часть текста, которая не помещается */
+    text-overflow: ellipsis; /* Добавляет многоточие, если текст слишком длинный */
+
+}
+
+.redBg{
+    background-color:red;
+}
+
+.greenBg {
+    background-color: green;
+}
+
+.yellowBg {
+    background-color: yellow;
+}
+
+/* Основной контейнер */
+.telegram {
+    background: #10266b;
+    position: fixed;
+    bottom: 15px;
+    right: -280px;
+    border-radius: 500px;
+    box-shadow: 0 14px 25px rgba(0, 0, 0, 0.32);
+    width: 350px;
+    padding: 20px;
+    z-index: 30;
+    font-size: 14px;
+    color: #fff;
+    transform: translateX(0) scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.telegram:hover {
+    transform: translateX(-280px); /* Сдвиг на экран */
+    transition: transform 0.3s ease-in-out;
+}
+
+.uk-grid {
+    display: flex;
+    align-items: center; /* Вертикальное центрирование */
+    gap: 10px; /* Пробел между изображением и текстом */
+}
+
+/* Картинка занимает минимальное место */
+.col-auto {
+    flex-shrink: 0; /* Запрещает уменьшать блок с изображением */
+    width: auto; /* Только необходимая ширина */
+}
+
+/* Текст занимает оставшееся место */
+.col-expand {
+    flex-grow: 1; /* Расширяется на оставшуюся ширину */
+    flex-shrink: 1; /* Уменьшается, если не хватает места */
+    min-width: 0; /* Устраняет проблемы с текстом в Flexbox */
+}
+
+/* Текстовые стили */
+.widget_text_main {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Стили текста */
+.widget_text {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.widget_text_main {
+    font-size: 18px;
+    font-weight: bold;
+}
+

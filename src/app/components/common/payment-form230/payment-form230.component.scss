@@ -1,0 +1,38 @@
+
+.dialog {
+    .mat-dialog-container {
+        overflow: visible !important;
+
+        .close-btn-outer {
+            position: relative;
+
+            button {
+                position: absolute;
+                right: -44px;
+                top: -44px;
+            }
+        }
+    }      
+}
+
+
+.cancelButton {
+    margin-top:25px;
+}
+
+.subscribeButton {
+    margin-top: 25px;
+}
+
+.formHeader {
+    margin-top: 10px;
+}
+
+.emailInput {
+    margin-top: 10px
+}
+
+.formContainer {
+    padding: 20px
+}
+

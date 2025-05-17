@@ -1,0 +1,79 @@
+.feedbackContainer {
+    min-height: 360px;
+}
+
+span {
+    display: block;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 15.5px;
+    margin-left: 25px;
+}
+
+h3 {
+    line-height: 1.5;
+
+    margin: {
+        top: 12px;
+        bottom: 0px;
+    };
+
+    font: {
+        size: 20px;
+        weight: 700;
+    };
+
+}
+
+
+.topFeedbackInfo{
+    min-height: 100px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center; /* Центровка иконки */
+    align-items: center;
+    height: 100%;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column; /* Заголовки один под другим */
+    justify-content: center; /* Выравнивание по вертикали */
+    margin: 0;
+}
+
+.text-container span {
+    font-size: 12px; /* Уменьшенный текст подзаголовка */
+}
+
+
+
+
+
+i {
+    padding-left:8px;
+    color: var(--mainColor);
+    font-size: 19px;
+    background: #f6f6f6;
+    width: 70px;
+    height: 70px;
+    line-height: normal; /* Убираем привязку высоты строки */
+    display: flex; /* Используем Flexbox */
+    align-items: center; /* Центровка по вертикали */
+    justify-content: center; /* Центровка по горизонтали */
+    text-align: center;
+    border-radius: 50%; /* Круглая форма */
+    transition: var(--transition);
+
+    &:hover {
+        background-color: var(--mainColor);
+        color: var(--whiteColor);
+    }
+}
+
+       

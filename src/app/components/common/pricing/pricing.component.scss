@@ -1,0 +1,23 @@
+.tarrif_container {
+    min-height: 750px;
+}
+
+
+.discountPrice {
+    display: block;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #ff2c57;
+    margin-left: 10px;
+
+    font: {
+        size: 26px;
+        weight: 400;
+    }
+
+    ;
+}
+
+.boldText{
+    font-weight: 600;
+}

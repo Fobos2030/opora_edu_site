@@ -1,0 +1,25 @@
+.timer-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #ff0000;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem; /* Расстояние между блоками времени */
+}
+
+.time-block {
+    margin-top: 10px;
+    display: inline-block;
+    width: 2.5ch; /* Фиксированная ширина для цифр */
+    text-align: center; /* Центрирование текста внутри блока */
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1.2rem;
+}

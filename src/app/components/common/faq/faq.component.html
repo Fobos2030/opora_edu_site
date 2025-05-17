@@ -1,0 +1,73 @@
+<div class="faq-area ptb-100">
+    <div class="container">
+        <div class="section-title">
+            <h2>Часто задаваемые <span>вопросы</span></h2>
+            <p>
+                Остались вопросы? Ответы на них вы можете получить здесь
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-lg-7 col-md-12">
+                <div class="faq-accordion">
+                    <div class="accordion">
+                        <div class="accordion-section">
+                            <div class="accordion-header" (click)="toggleSection(0)" [ngClass]="{ 'open': isSectionOpen(0) }">
+                                Сколько можно заработать на торговле с Китаем?
+                            </div>
+                            <div class="accordion-content" [ngClass]="{ 'open': isSectionOpen(0) }">
+                                <p>Средняя наценка на товар 70-150%. Соответственно, при правильных действиях можно окупить вложения уже на 2-3 месяце продаж.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-section">
+                            <div class="accordion-header" (click)="toggleSection(1)" [ngClass]="{ 'open': isSectionOpen(1) }">
+                                Как будет проходить обучение?
+                            </div>
+                            <div class="accordion-content" [ngClass]="{ 'open': isSectionOpen(1) }">
+                                <p>
+                                    Обучение проходит в формате видеоуроков, обязательных домашних заданий, а также онлайн вебинаров.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accordion-section">
+                            <div class="accordion-header" (click)="toggleSection(2)" [ngClass]="{ 'open': isSectionOpen(2) }">
+                                Что нужно, чтобы оплатить обучение в рассрочку?
+                            </div>
+                            <div class="accordion-content" [ngClass]="{ 'open': isSectionOpen(2) }">
+                                <p>Оплатить обучение можно через платежные системы, указанные на сайте. Также можно оформить рассрочку, нажав на значок рассрочки при оплате курса.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-section">
+                            <div class="accordion-header" (click)="toggleSection(3)" [ngClass]="{ 'open': isSectionOpen(3) }">
+                                Получу ли я сертификат после окончания обучения?
+                            </div>
+                            <div class="accordion-content" [ngClass]="{ 'open': isSectionOpen(3) }">
+                                <p>После окончания курса, выполнения финального теста, вы получаете сертификат о дополнительном образовании, выданный «ОПОРОЙ РОССИИ».</p>
+                            </div>
+                        </div>
+                        <div class="accordion-section">
+                            <div class="accordion-header" (click)="toggleSection(4)" [ngClass]="{ 'open': isSectionOpen(4) }">
+                                Где получить информацию о бизнес-миссиях?
+                            </div>
+                            <div class="accordion-content" [ngClass]="{ 'open': isSectionOpen(4) }">
+                                <p>Нажмите на кнопку "записаться на бизнес-миссию", заполните данные, и мы вышлем вам всю информацию о ближайших бизнес-миссиях «ОПОРЫ РОССИИ» в КНР.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-section">
+                            <div class="accordion-header" (click)="toggleSection(4)" [ngClass]="{ 'open': isSectionOpen(4) }">
+                                Как получить карту АТЭС?
+                            </div>
+                            <div class="accordion-content" [ngClass]="{ 'open': isSectionOpen(4) }">
+                                <p>После оплаты тарифа VIP напишите письмо на почту ⦁	edu@opora.ru, приложите электронный чек, и мы вышлем вам пакет документов, необходимых для оформления карты АТЭС.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12">
+                <div class="faq-image">
+                    <img src="assets/img/faq-img.jpg" alt="image">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

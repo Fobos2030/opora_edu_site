@@ -1,0 +1,50 @@
+<div class="dialog min-w-80 lt-xl:min-w-60">
+    <div mat-dialog-content>
+        <!-- Card -->
+        <div class="flex flex-col max-w-120 w-full px-3 pt-6 pb-4 lt-xl:max-w-60">
+            <div class="flex justify-center text-center formContainer">
+                <h3 class="title formHeader">ЛИЧНЫЙ АНАЛИТИК</h3>
+
+                <form id="ltForm5079262"
+                      action="https://oporaedu.getcourse.ru/pl/lite/block-public/process-html?id=2121044176"
+                      method="post"
+                      data-open-new-window="1">
+                    <input type="hidden" name="formParams[setted_offer_id]"><br>
+                    <input type="text" maxlength="60" placeholder="Введите ваш эл. адрес" name="formParams[email]" class="form-control emailInput" value=""><br>
+                    <button type="submit"
+                            id="button5389935"
+                            class="btn btn-primary subscribeButton" onclick="if(window['btnprs6748c45731974']){return false;}window['btnprs6748c45731974']=true;setTimeout(function(){window['btnprs6748c45731974']=false},6000);return true;">
+                        Купить
+                    </button><br>
+                    <input type="hidden" id="13197716748c4572c265" name="__gc__internal__form__helper" class="__gc__internal__form__helper" value="">
+                    <input type="hidden" id="13197716748c4572c265ref" name="__gc__internal__form__helper_ref" class="__gc__internal__form__helper_ref" value="">
+                    <input type="hidden" name="requestTime" value="1732822103">
+                    <input type="hidden" name="requestSimpleSign" value="f907f023a9d7687ff3f8a7d7c3d26b1e">
+                    <input type="hidden" name="isHtmlWidget" value="1" />
+                </form><span id="gccounterImgContainer"></span>
+                <script>
+                    window.addEventListener('load', function () {
+                        let loc = document.getElementById("13197716748c4572c265");
+                        loc.value = window.location.href;
+                        let ref = document.getElementById("13197716748c4572c265ref");
+                        ref.value = document.referrer;
+
+                        let statUrl = "https://oporaedu.getcourse.ru/stat/counter?ref=" + encodeURIComponent(document.referrer)
+                            + "&loc=" + encodeURIComponent(document.location.href);
+                        document.getElementById('gccounterImgContainer').innerHTML
+                            = "<img width=1 height=1 style='display:none' id='gccounterImg' src='" + statUrl + "'/>";
+                    });
+                </script>
+
+                <div class="flex flex-wrap justify-center">
+                    <button class="btn btn-primary-black cancelButton"
+                            (click)="close()">
+                        <span>Не сейчас</span>
+                    </button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
